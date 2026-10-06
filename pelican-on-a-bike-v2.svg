@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-labelledby="title2 desc2">
+  <title id="title2">Pelican riding a beach cruiser at sunset - version 2</title>
+  <desc id="desc2">A cool pelican with sunglasses and backwards cap riding a teal beach cruiser along the beach at sunset with palm trees.</desc>
+
+  <defs>
+    <linearGradient id="sunset" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="35%" stop-color="#f472b6"/>
+      <stop offset="65%" stop-color="#fb923c"/>
+      <stop offset="100%" stop-color="#fde68a"/>
+    </linearGradient>
+    <linearGradient id="ocean2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#db2777"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background sunset -->
+  <rect x="0" y="0" width="800" height="600" fill="url(#sunset)"/>
+  <circle cx="400" cy="380" r="90" fill="#fef3c7" opacity="0.95"/>
+  <circle cx="400" cy="380" r="110" fill="#fef3c7" opacity="0.25"/>
+  <!-- sun reflection -->
+  <rect x="370" y="430" width="60" height="120" fill="#fef3c7" opacity="0.4"/>
+  <!-- ocean -->
+  <rect x="0" y="400" width="800" height="80" fill="url(#ocean2)" opacity="0.9"/>
+  <g stroke="white" stroke-width="3" opacity="0.5" stroke-linecap="round">
+    <line x1="100" y1="430" x2="220" y2="430"/>
+    <line x1="580" y1="445" x2="700" y2="445"/>
+    <line x1="300" y1="455" x2="500" y2="455"/>
+  </g>
+  <!-- sand -->
+  <rect x="0" y="480" width="800" height="120" fill="#fde68a"/>
+  <ellipse cx="200" cy="520" rx="120" ry="12" fill="#fcd34d" opacity="0.6"/>
+  <ellipse cx="600" cy="550" rx="180" ry="14" fill="#fcd34d" opacity="0.6"/>
+
+  <!-- palm silhouettes -->
+  <g fill="#4a044e" opacity="0.85">
+    <rect x="68" y="220" width="16" height="220" rx="8" transform="rotate(8 76 330)"/>
+    <g transform="translate(85,220)">
+      <ellipse cx="0" cy="-20" rx="60" ry="16" transform="rotate(-15)"/>
+      <ellipse cx="0" cy="-20" rx="60" ry="16" transform="rotate(15)"/>
+      <ellipse cx="0" cy="-20" rx="60" ry="15" transform="rotate(90)"/>
+      <ellipse cx="-10" cy="-10" rx="50" ry="14" transform="rotate(-45)"/>
+      <ellipse cx="10" cy="-10" rx="50" ry="14" transform="rotate(45)"/>
+    </g>
+    <circle cx="60" cy="225" r="12"/>
+    <circle cx="80" cy="228" r="12"/>
+  </g>
+  <g fill="#4a044e" opacity="0.7" transform="translate(730,180) scale(0.7)">
+    <rect x="-8" y="0" width="16" height="220" rx="8"/>
+    <g transform="translate(0,0)">
+      <ellipse cx="0" cy="-20" rx="60" ry="16" transform="rotate(-15)"/>
+      <ellipse cx="0" cy="-20" rx="60" ry="16" transform="rotate(15)"/>
+      <ellipse cx="0" cy="-20" rx="60" ry="15" transform="rotate(90)"/>
+    </g>
+  </g>
+
+  <!-- seagulls -->
+  <g fill="none" stroke="#4a044e" stroke-width="4" stroke-linecap="round" opacity="0.8">
+    <path d="M250 140 Q265 130 280 140 Q295 130 310 140"/>
+    <path d="M520 110 Q532 102 544 110 Q556 102 568 110"/>
+    <path d="M600 160 Q610 153 620 160 Q630 153 640 160"/>
+  </g>
+
+  <!-- dust puffs -->
+  <g fill="#fffbeb" opacity="0.9">
+    <circle cx="140" cy="490" r="14"/>
+    <circle cx="160" cy="480" r="10"/>
+    <circle cx="120" cy="480" r="9"/>
+  </g>
+
+  <!-- WHEELS - cruiser with cream tires -->
+  <g>
+    <circle cx="250" cy="470" r="75" fill="#fffbeb" stroke="#0f172a" stroke-width="8"/>
+    <circle cx="250" cy="470" r="55" fill="#0e7490" stroke="#0f172a" stroke-width="5"/>
+    <circle cx="250" cy="470" r="30" fill="none" stroke="#fffbeb" stroke-width="4" stroke-dasharray="8 6"/>
+    <circle cx="250" cy="470" r="8" fill="#0f172a"/>
+    <!-- fender rear -->
+    <path d="M175 460 A75 75 0 0 1 325 460" fill="none" stroke="#14b8a6" stroke-width="14" stroke-linecap="round"/>
+  </g>
+  <g>
+    <circle cx="560" cy="470" r="75" fill="#fffbeb" stroke="#0f172a" stroke-width="8"/>
+    <circle cx="560" cy="470" r="55" fill="#0e7490" stroke="#0f172a" stroke-width="5"/>
+    <circle cx="560" cy="470" r="30" fill="none" stroke="#fffbeb" stroke-width="4" stroke-dasharray="8 6"/>
+    <circle cx="560" cy="470" r="8" fill="#0f172a"/>
+    <!-- fender front -->
+    <path d="M485 460 A75 75 0 0 1 635 460" fill="none" stroke="#14b8a6" stroke-width="14" stroke-linecap="round"/>
+  </g>
+
+  <!-- frame cruiser teal -->
+  <g fill="none" stroke="#0f766e" stroke-width="11" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="250" y1="470" x2="360" y2="350"/> <!-- seat tube diag -->
+    <path d="M360 350 Q420 360 470 420 L410 470"/> <!-- curved down tube -->
+    <line x1="360" y1="350" x2="540" y2="340"/> <!-- top tube -->
+    <line x1="540" y1="340" x2="560" y2="470"/> <!-- fork -->
+    <line x1="410" y1="470" x2="250" y2="470"/>
+  </g>
+  <!-- chain guard -->
+  <ellipse cx="330" cy="470" rx="65" ry="25" fill="#14b8a6" stroke="#0f172a" stroke-width="4"/>
+  <circle cx="410" cy="470" r="16" fill="none" stroke="#0f172a" stroke-width="6"/>
+  <g stroke="#0f172a" stroke-width="6" stroke-linecap="round">
+    <line x1="410" y1="470" x2="435" y2="500"/>
+    <line x1="410" y1="470" x2="385" y2="440"/>
+  </g>
+  <g fill="#0f172a">
+    <rect x="420" y="495" width="38" height="10" rx="5"/>
+    <rect x="352" y="435" width="38" height="10" rx="5"/>
+  </g>
+
+  <!-- leather seat + swept handlebars -->
+  <ellipse cx="350" cy="340" rx="30" ry="12" fill="#78350f" stroke="#451a03" stroke-width="4"/>
+  <path d="M540 340 L555 300 Q560 285 580 285 L605 285" fill="none" stroke="#0f172a" stroke-width="9" stroke-linecap="round"/>
+  <line x1="595" y1="275" x2="615" y2="275" stroke="#78350f" stroke-width="14" stroke-linecap="round"/>
+
+  <!-- PELICAN v2 - leaning forward, cool -->
+  <!-- tail up -->
+  <path d="M295 280 L235 255 L245 285 L230 300 L290 315 Z" fill="#134e4a" stroke="#0f172a" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- back leg -->
+  <path d="M360 360 Q375 400 385 440" fill="none" stroke="#f59e0b" stroke-width="11" stroke-linecap="round"/>
+  <ellipse cx="375" cy="440" rx="17" ry="8" fill="#fbbf24" stroke="#92400e" stroke-width="3"/>
+
+  <!-- body - chubbier, leaned -->
+  <ellipse cx="370" cy="300" rx="90" ry="68" fill="white" stroke="#0f172a" stroke-width="5" transform="rotate(-10 370 300)"/>
+  <ellipse cx="370" cy="325" rx="55" ry="25" fill="#ccfbf1" opacity="0.9"/>
+
+  <!-- front leg -->
+  <path d="M385 365 Q410 430 430 498" fill="none" stroke="#f59e0b" stroke-width="12" stroke-linecap="round"/>
+  <path d="M413 495 L450 495 L445 507 L410 507 Z" fill="#fbbf24" stroke="#92400e" stroke-width="3"/>
+
+  <!-- wing -->
+  <g transform="rotate(-5 375 295)">
+    <ellipse cx="375" cy="295" rx="55" ry="30" fill="#99f6e0" stroke="#0f766e" stroke-width="4"/>
+    <path d="M335 295 Q365 305 405 295" fill="none" stroke="#0f766e" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- neck forward -->
+  <path d="M430 270 L490 210 L515 235 L455 300 Z" fill="white" stroke="#0f172a" stroke-width="5" stroke-linejoin="round"/>
+
+  <!-- head -->
+  <circle cx="510" cy="205" r="38" fill="white" stroke="#0f172a" stroke-width="5"/>
+  <!-- happy open beak -->
+  <path d="M540 195 L660 215 L540 230 Z" fill="#fbbf24" stroke="#92400e" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M542 230 L650 220 Q630 255 585 260 Q555 260 542 230" fill="#fb923c" stroke="#9a3412" stroke-width="4" stroke-linejoin="round"/>
+  <!-- sunglasses -->
+  <g>
+    <rect x="495" y="190" width="45" height="28" rx="10" fill="#0f172a"/>
+    <rect x="500" y="194" width="18" height="8" rx="4" fill="#67e8f9" opacity="0.8"/>
+    <line x1="540" y1="200" x2="550" y2="198" stroke="#0f172a" stroke-width="5"/>
+  </g>
+  <!-- backwards cap -->
+  <path d="M475 190 A38 38 0 0 1 545 185 L545 170 A45 30 0 0 0 475 170 Z" fill="#ef4444" stroke="#7f1d1d" stroke-width="4"/>
+  <ellipse cx="482" cy="172" rx="12" ry="6" fill="#ef4444" stroke="#7f1d1d" stroke-width="3" transform="rotate(-20 482 172)"/>
+  <circle cx="510" cy="155" r="6" fill="#7f1d1d"/>
+
+  <!-- arm to handlebar -->
+  <path d="M410 295 Q500 300 585 285" fill="none" stroke="white" stroke-width="20" stroke-linecap="round"/>
+  <path d="M410 295 Q500 300 585 285" fill="none" stroke="#0f172a" stroke-width="20" stroke-linecap="round" opacity="0.12"/>
+  <circle cx="592" cy="284" r="13" fill="white" stroke="#0f172a" stroke-width="4"/>
+
+  <!-- surfboard on back? small flag -->
+  <g>
+    <line x1="265" y1="350" x2="240" y2="260" stroke="#0f172a" stroke-width="6" stroke-linecap="round"/>
+    <polygon points="240,260 285,275 240,290" fill="#14b8a6" stroke="#0f172a" stroke-width="4"/>
+  </g>
+
+</svg>
